@@ -2,4 +2,4 @@ from django.db import models
 
 # Create your models here.
 class Query(models.Model):
-    q = models.TextField()
+    q = models.CharField(max_length=1000)
